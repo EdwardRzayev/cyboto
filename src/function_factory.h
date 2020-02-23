@@ -21,7 +21,6 @@ class FunctionFactory {
   StandartFunction* ExampleWithTailAndDelay(UnificatedArguments args);
   std::map<std::string,
            std::function<StandartFunction*(UnificatedArguments)>> available_functions_;
-  //kek
 };
 
 #endif // CUSTOM_FUNCTION_H
